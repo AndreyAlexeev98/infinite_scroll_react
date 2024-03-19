@@ -1,9 +1,16 @@
 .App {
-  text-align: center;
+  padding: 10px;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -13,20 +20,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +28,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.field_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field {
+  background-color: #20aee2;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #fff;
+  max-width: 100px;
+}
+
+.title {
+  text-align: center;
+}
+
+.post {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  list-style: decimal;
+}
+
+.post:nth-child(odd) {
+  color: #818181;
+}
+
+.placeholder {
+  border-top: 3px solid grey;
+  border-bottom: 3px solid grey;
+  text-align: center;
+  padding: 35px 0;
+  font-weight: bold;
+  width: 100%;
 }

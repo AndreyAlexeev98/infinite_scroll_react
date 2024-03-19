@@ -9295,7 +9295,8 @@
       var e = t(391),
         n = t(43);
       const r =
-        t.p + "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg";
+        t.p +
+        "infinite_scroll_react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg";
       var l = t(579);
       const a = () => {
           const [e, t] = (0, n.useState)([]),
